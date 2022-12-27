@@ -1,13 +1,13 @@
 <template>
     <div> 
        
-       <NavBar/>
+       <Navbar/>
      <div class="">
         <Nuxt />
      
        </div>
     
-        <FootBar/>
+        <Footbar/>
     
     
     </div>

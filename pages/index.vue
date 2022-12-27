@@ -8,7 +8,7 @@
 
 export default {
     name: "IndexPage",
-    components: { Navbar }
+
 }
-</script
-        Footbar>
+</script>
+    
