@@ -10,6 +10,13 @@ module.exports = {
 
   ],
   theme: {
+    fontFamily:{
+
+      'body':['Manrope'],
+      
+      'inter':['Inter']
+  
+      },
     extend: {},
   },
   plugins: [],
