@@ -43,13 +43,13 @@ export default {
 
   firebase: {
     config: {
-      apiKey: 'AIzaSyBkWA1aNkYPYiaeLSCnyM5TXInPxElsWVw',
-      authDomain: 'skillfy-4afd8.firebaseapp.com',
-      projectId: 'skillfy-4afd8',
-      storageBucket: 'skillfy-4afd8.appspot.com',
-      messagingSenderId: '656018826759',
-      appId: '1:656018826759:web:0b8b01bdc0088f027a2ca2',
-      measurementId: 'G-6R35K8YTQ9'
+      apiKey: 'AIzaSyBiK5-XzeFP-HaHVpI3vWYQPrm8V77i-ks',
+      authDomain: 'skillfy-d2b30.firebaseapp.com',
+      projectId: 'skillfy-d2b30',
+      storageBucket: 'skillfy-d2b30.appspot.com',
+      messagingSenderId: '815680215057',
+      appId: '1:815680215057:web:0560012b0a94678417b9b0',
+      measurementId: 'G-ZJ8SFPGTLC'
     },
     services: {
       auth: true // Just as example. Can be any other service.
