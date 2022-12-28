@@ -1,6 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
-    <footer class="text-gray-600 font-body">
+    <footer class="text-gray-600 font-body bg-gray-50">
   <div class="container p-10 mx-auto">
     <div class="grid grid-cols-2 xl:grid-cols-5 justify-items-center text-center m-2 ">
       <div class="px-4 space-y-4">
