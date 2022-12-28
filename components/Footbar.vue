@@ -4,19 +4,53 @@
   <div class="container p-10 mx-auto">
     <div class="grid grid-cols-2 xl:grid-cols-5 justify-items-center text-center m-2 ">
       <div class="px-4 space-y-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">SKILLFY</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Home</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800">FAQ</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Get In Touch</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Blog</a>
+          </li>
+        </nav>
+      </div>
+      <div class="px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">SUPPPORT</h2>
+        <nav class="list-none mb-10 space-y-4">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"> Help & Support</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">FAQ</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Get In Touch</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Blog</a>
+          </li>
+        </nav>
+      </div>
+      <div class="px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CONNECT WITH US</h2>
+        <nav class="list-none mb-10 space-y-4">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Email</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Facebook</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Twitter</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"> Instagram</a>
           </li>
         </nav>
       </div>
@@ -24,51 +58,15 @@
         <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Frontend jobs</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Backend Jobs</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Marketing Jobs</a>
           </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10 space-y-4">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10 space-y-4">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
+          
         </nav>
       </div>
       <div class="px-4">
