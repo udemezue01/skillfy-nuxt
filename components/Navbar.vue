@@ -26,11 +26,11 @@
   
           <NuxtLink to="/" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md "> Home</NuxtLink>
   
-          <NuxtLink to="/news" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Frontend</NuxtLink>
+          <NuxtLink to="/frontend" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Frontend</NuxtLink>
 
-          <NuxtLink to="/news" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Backend</NuxtLink>
+          <NuxtLink to="/backend" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Backend</NuxtLink>
 
-          <NuxtLink to="/news" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Marketing</NuxtLink>
+          <NuxtLink to="/marketing" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Marketing</NuxtLink>
   
   
           
