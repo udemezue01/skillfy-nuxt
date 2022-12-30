@@ -52,7 +52,9 @@ export default {
       measurementId: 'G-ZJ8SFPGTLC'
     },
     services: {
-      auth: true // Just as example. Can be any other service.
+      auth: true,
+      firestore: true,// Just as example. Can be any other service.
+
     }
  },
 

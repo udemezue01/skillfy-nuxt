@@ -49,6 +49,34 @@ console.log(e)
 
 },
 
+// The Job List API
+
+async jobList({commit}){
+
+    try{
+    
+    
+    const response = await this.$fire.firestore.collection('Job').get()
+
+    response.forEach((doc) => {
+        // doc.data() is never undefined for query doc snapshots
+        
+         const jobs  = doc.data()
+         commit('SET_JOBS', jobs)
+        //  console.log(jobs);
+      });
+      
+    
+    
+    
+    
+    }
+    catch(e){
+    
+    console.log(e)
+    }
+    
+    },
 
 
 };

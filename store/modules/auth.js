@@ -2,8 +2,8 @@
 
 const state =  {
 
-    jobs:[],
-    filteredJobs:[],
+    // jobs:[],
+    // filteredJobs:[],
     
     };
     
@@ -30,24 +30,24 @@ const state =  {
     
     // The News list API 
     
-    async jobCreate({commit}){
+    // async jobCreate({commit}){
     
-    try{
-    
-    
-    const response = await this.$axios.$get(endPoint, config)
-    const news  	= response.articles
-    
-    commit('SET_NEWS', news)
+    // try{
     
     
-    }
-    catch(e){
+    // const response = await this.$axios.$get(endPoint, config)
+    // const news  	= response.articles
     
-    console.log(e)
-    }
+    // commit('SET_NEWS', news)
     
-    },
+    
+    // }
+    // catch(e){
+    
+    // console.log(e)
+    // }
+    
+    // },
     
     
     
