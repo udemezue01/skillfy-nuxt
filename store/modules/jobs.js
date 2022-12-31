@@ -17,9 +17,9 @@ const getters = {
 
 const mutations = {
 
-SET_JOBS(state, jobs){
+SET_JOBS(state, jobsArray){
 
-state.jobs = jobs 
+state.jobs = jobsArray 
 },
 
 
@@ -28,47 +28,27 @@ state.jobs = jobs
 
 const actions = {
 
-// The News list API 
-
-async jobCreate({commit}){
-
-try{
-
-
-const response = await this.$axios.$get(endPoint, config)
-const news  	= response.articles
-
-commit('SET_JOBS', news)
-
-
-}
-catch(e){
-
-console.log(e)
-}
-
-},
 
 // The Job List API
 
 async jobList({commit}){
 
-    try{
+  try{
     
     
     const response = await this.$fire.firestore.collection('Job').get()
 
     response.forEach((doc) => {
         // doc.data() is never undefined for query doc snapshots
+        const jobsArray = []
+        jobsArray.push(doc.data())
+        console.log(jobsArray)
+        commit('SET_JOBS', jobsArray)
         
-         const jobs  = doc.data()
-         commit('SET_JOBS', jobs)
-        //  console.log(jobs);
       });
       
-    
-    
-    
+     
+  
     
     }
     catch(e){
@@ -78,6 +58,34 @@ async jobList({commit}){
     
     },
 
+    // The Job Create API
+
+    async jobCreate({commit}){
+
+      try{
+        
+        
+        const response = await this.$fire.firestore.collection('Job').get()
+    
+        response.forEach((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            const jobsArray = []
+            jobsArray.push(doc.data())
+        
+          commit('SET_JOBS', jobsArray)
+            
+          });
+          
+        
+      
+        
+        }
+        catch(e){
+        
+        console.log(e)
+        }
+        
+        },
 
 };
 

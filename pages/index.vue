@@ -1,6 +1,13 @@
 <template>
+    <div>
+
+
 
     <Hero/>
+
+    <Jobs/>
+
+</div>
 
 </template>
 
