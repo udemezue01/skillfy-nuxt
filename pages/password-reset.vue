@@ -62,7 +62,7 @@
     
     
     export default {
-        name: "LoginPage",
+        name: "PasswordResetPage",
     
     }
     </script>
