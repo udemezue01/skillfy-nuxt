@@ -1,7 +1,7 @@
 <template>
 
     <div class="w-full max-w-lg p-6 m-auto mx-auto dark:bg-gray-800 font-body">
-        <h1 class="text-3xl font-semibold text-center text-gray-700 dark:text-white">Brand</h1>
+        <h1 class="text-3xl font-semibold text-center text-gray-700 dark:text-white">Login</h1>
     
         <form class="space-y-8">
             <div>
@@ -12,7 +12,7 @@
             <div class="">
                 <div class="flex items-center justify-between">
                     <label for="password" class="block text-sm text-gray-800 dark:text-gray-200">Password</label>
-                    <a href="#" class="text-xs text-gray-600 dark:text-gray-400 hover:underline">Forget Password?</a>
+                    <NuxtLink to="/password-reset" class="text-xs text-gray-600 dark:text-gray-400 hover:underline">Forget Password?</NuxtLink>
                 </div>
     
                 <input type="password" class="block w-full px-6 py-4 mt-2 text-gray-700 bg-white border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />

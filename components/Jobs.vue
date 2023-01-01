@@ -47,9 +47,9 @@ export default {
 ...mapState(['jobs'])
 },
 
-    created(){
+  created(){
 
-        this.$store.dispatch('jobList')
+      this.$store.dispatch('jobList')
 
 }
 
