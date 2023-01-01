@@ -41,7 +41,7 @@
         <div class="flex justify-center hidden xl:block">
         
         <NuxtLink to="/register" >  <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Get Started</button> </NuxtLink>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Join</button>
+        <NuxtLink to="/login" > <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Join</button> </NuxtLink>
       </div>
         
   

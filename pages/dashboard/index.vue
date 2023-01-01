@@ -39,6 +39,16 @@ data(){
 
     return{
 
+    jobDetails:{
+        
+        title:"",
+        description:"",
+        tag:"",
+        salary:"",
+        company_name:"",
+        company_logo:"",
+    }
+
 
     }
 },

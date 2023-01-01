@@ -69,12 +69,12 @@ async jobList({commit}){
     
         response.forEach((doc) => {
             // doc.data() is never undefined for query doc snapshots
-            const jobsArray = []
-            jobsArray.push(doc.data())
+          const jobsArray = []
+          jobsArray.push(doc.data())
         
           commit('SET_JOBS', jobsArray)
             
-          });
+      });
           
         
       
