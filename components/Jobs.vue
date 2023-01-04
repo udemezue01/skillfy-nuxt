@@ -4,7 +4,7 @@
 
    <ul class="list-none">
 
-        <li v-for="obj in jobs">
+        <li v-for="obj in jobs.jobs">
             <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
