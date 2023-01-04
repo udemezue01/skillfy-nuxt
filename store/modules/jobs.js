@@ -19,7 +19,7 @@ const mutations = {
 
 SET_JOBS(state, jobsArray){
 
-state.jobs = jobsArray 
+state.jobs = jobsArray
 },
 
 
@@ -36,14 +36,15 @@ async jobList({commit}){
   try{
     
     
-    const response = await this.$fire.firestore.collection('Job').get()
+    const req = await this.$fire.firestore.collection('Job').get()
 
-    response.forEach((doc) => {
+    req.forEach((doc) => {
         // doc.data() is never undefined for query doc snapshots
         const jobsArray = []
+
         jobsArray.push(doc.data())
-        console.log(jobsArray)
-        commit('SET_JOBS', jobsArray)
+
+        commit('SET_JOBS', ...jobsArray)
         
       });
       
@@ -72,13 +73,12 @@ async jobList({commit}){
           const jobsArray = []
           jobsArray.push({
 
-            id:doc.id
-
+          
           })
 
           console.log(jobsArray)
         
-          commit('SET_JOBS', jobsArray)
+          commit('SET_JOBS', ...jobsArray)
             
       });
           
